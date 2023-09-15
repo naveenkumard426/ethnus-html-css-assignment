@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+
+        .pagination-button:hover {
+            background-color: #0056b3;
+        }
+
+        .pagination-number {
+            text-decoration: underline;
+            color: purple;
+            font-size: 18px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .pagination-number:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagination">
+        <button class="pagination-button">Back</button>
+        <span class="pagination-number">1</span>
+        <span class="pagination-number">2</span>
+        <span class="pagination-number">3</span>
+        <span class="pagination-number">4</span>
+        <span class="pagination-number">5</span>
+        <button class="pagination-button">Next</button>
+    </div>
+</body>
+</html>

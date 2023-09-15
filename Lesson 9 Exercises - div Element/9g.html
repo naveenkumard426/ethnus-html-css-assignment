@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML and CSS</title>
+    <style>
+        .profile-container {
+            max-width: 98px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: inline-block; /* Display profiles side by side */
+        }
+
+        .img {
+            width: 100px;
+            border-radius: 0;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .profile-details {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .profile-details p {
+            margin: 5px 0;
+        }
+
+        #add-friend-button {
+            background-color: rgb(10, 102, 194);
+            color: white;
+            padding: 5px 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="img.png" class="img" alt="Profile Image">
+        <div class="profile-details">
+            <p>Oliver</p>
+            <p>2 mutual friends</p>
+            <button id="add-friend-button" type="button">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="profile-container">
+        <img src="img.png" class="img" alt="Profile Image">
+        <div class="profile-details">
+            <p>Oliver</p>
+            <p>2 mutual friends</p>
+            <button id="add-friend-button" type="button">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="profile-container">
+        <img src="img.png" class="img" alt="Profile Image">
+        <div class="profile-details">
+            <p>Oliver</p>
+            <p>2 mutual friends</p>
+            <button id="add-friend-button" type="button">Add Friend</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-container {
+            max-width: 150px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            display: inline-block;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+        .img {
+            max-width: 100%;
+            
+        }
+
+        .profile-details {
+            margin-top: 10px;
+            font-size: 16px;
+            
+        }
+
+        .profile-details p {
+            margin: 5px 0;
+        }
+
+        .mutual-friends {
+            font-size: 11px;
+            color: #555;
+            text-align: center;
+        }
+
+        .add-friend-button {
+            background-color: #0084ff;
+            color: white;
+            padding: 5px 10px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+
+        .tweet-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+            border-radius: 5px;
+            
+        }
+
+        .profile-img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 768px) {
+            .profile-container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="img.png" class="img" alt="Profile Image">
+        <div class="profile-details">
+            <p>Oliver</p>
+            <div class="tweet-container">
+                <img src="mylogo.png" class="profile-img" alt="Profile Image">
+                <div class="tweet-content">
+            <p class="mutual-friends">2 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-friend-button" type="button">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="profile-container">
+        <img src="img.png" class="img" alt="Profile Image">
+        <div class="profile-details">
+            <p>Oliver</p>
+            <div class="tweet-container">
+                <img src="mylogo.png" class="profile-img" alt="Profile Image">
+                <div class="tweet-content">
+            <p class="mutual-friends">2 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-friend-button" type="button">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="profile-container">
+        <img src="img.png" class="img" alt="Profile Image">
+        <div class="profile-details">
+            <p>Oliver</p>
+            <div class="tweet-container">
+                <img src="mylogo.png" class="profile-img" alt="Profile Image">
+                <div class="tweet-content">
+                    <p class="mutual-friends">2 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-friend-button" type="button">Add Friend</button>
+        </div>
+    </div>
+</body>
+</html>

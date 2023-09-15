@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+    <style>
+
+        .header {
+            display: flex;
+            justify-content: space-between; /* Spacing between Home and Download button */
+            align-items: center;
+            padding: 10px 20px;
+            background-color: purple; 
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-box {
+            display: flex;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-input {
+            flex: 1;
+            border: none;
+            padding: 10px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: transparent; 
+            color: white; 
+            cursor: pointer;
+            font-size: 16px;
+            border: white;
+        }
+
+        p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>Home</p>
+        <div class="search-bar">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+        </div>
+        <button>Download</button>
+    </div>
+</body>
+</html>
